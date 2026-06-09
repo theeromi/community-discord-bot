@@ -1,0 +1,30 @@
+{
+  "name": "dimandem-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for the Dimandem community with XP tracking, trivia, moderation, and fun commands",
+  "main": "index_enhanced.js",
+  "scripts": {
+    "start": "node index_enhanced.js",
+    "dev": "node index_enhanced.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "xp",
+    "trivia",
+    "moderation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "node-schedule": "^2.1.1",
+    "openai": "^5.1.1",
+    "rss-parser": "^3.13.0",
+    "sqlite3": "^5.1.7",
+    "dotenv": "^16.5.0"
+  }
+}

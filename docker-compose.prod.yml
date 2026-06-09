@@ -1,0 +1,37 @@
+# Production-grade compose file.
+#
+# Differences vs docker-compose.yml (the dev file):
+#   - No bind-mount of the source directory; the image is the source of truth.
+#   - dimandem.db (and backups) live on a named volume so they survive
+#     container rebuilds.
+#   - Logs go to journald with a size cap so the host disk can't fill up.
+#
+# Usage:
+#   cp .env.example .env       # then edit .env with your tokens and IDs
+#   cp config.example.js config.js
+#   docker compose -f docker-compose.prod.yml up -d --build
+#   docker compose -f docker-compose.prod.yml logs -f
+
+services:
+  dimandem-bot:
+    build: .
+    container_name: dimandem-bot
+    env_file:
+      - .env
+    environment:
+      - NODE_ENV=production
+      - DB_PATH=/data/dimandem.db
+      - BACKUP_DIR=/data/backups
+    volumes:
+      - bot-data:/data
+    restart: always
+    user: "${PUID:-1001}:${PGID:-1001}"
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+volumes:
+  bot-data:
+    driver: local

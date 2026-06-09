@@ -1,0 +1,131 @@
+[
+  {
+    "statements": [
+      "Jamaica has the fastest sprinters in the world.",
+      "The Jamaican flag has red in it.",
+      "Usain Bolt is from Jamaica."
+    ],
+    "lieIndex": 1
+  },
+  {
+    "statements": [
+      "The capital of France is Paris.",
+      "The Earth is flat.",
+      "Water boils at 100 degrees Celsius."
+    ],
+    "lieIndex": 1
+  },
+  {
+    "statements": [
+      "The game Minecraft lets you build houses.",
+      "Mario's brother is Luigi.",
+      "Fortnite was released in 1990."
+    ],
+    "lieIndex": 2
+  },
+  {
+    "statements": [
+      "The Mona Lisa was painted by Leonardo da Vinci.",
+      "The capital of Japan is Tokyo.",
+      "The largest mammal is the elephant."
+    ],
+    "lieIndex": 2
+  },
+  {
+    "statements": [
+      "In Apex Legends, you can use a grappling hook.",
+      "Call of Duty is a cooking game.",
+      "Valorant has agents with unique abilities."
+    ],
+    "lieIndex": 1
+  },
+  {
+    "statements": [
+      "In Among Us, you need to find the Impostor.",
+      "PUBG is a racing game.",
+      "League of Legends is a multiplayer online battle arena game."
+    ],
+    "lieIndex": 1
+  },
+  {
+    "statements": [
+      "The sun is a star.",
+      "Humans can breathe underwater without assistance.",
+      "Water covers over 70% of Earth's surface."
+    ],
+    "lieIndex": 1
+  },
+  {
+    "statements": [
+      "The PlayStation 5 was released in 2020.",
+      "Minecraft was created by Notch.",
+      "The Nintendo Switch can make phone calls."
+    ],
+    "lieIndex": 2
+  }
+  ,
+  {
+    "statements": [
+      "The Eiffel Tower is in Paris.",
+      "Bananas grow on trees.",
+      "Australia is both a country and a continent."
+    ],
+    "lieIndex": 1
+  },
+  {
+    "statements": [
+      "Pikachu is an Electric-type Pokémon.",
+      "Super Mario can fly with a cape in some games.",
+      "Pac-Man was released in 2020."
+    ],
+    "lieIndex": 2
+  },
+  {
+    "statements": [
+      "Watermelons are mostly made of water.",
+      "Cats have six legs.",
+      "A group of lions is called a pride."
+    ],
+    "lieIndex": 1
+  },
+  {
+    "statements": [
+      "The Great Wall of China is visible from space.",
+      "Sharks are fish.",
+      "The human body has 206 bones."
+    ],
+    "lieIndex": 0
+  },
+  {
+    "statements": [
+      "PlayStation is a video game console.",
+      "The internet was invented in the 1800s.",
+      "The Amazon is the largest rainforest on Earth."
+    ],
+    "lieIndex": 1
+  },
+  {
+    "statements": [
+      "Spiders have eight legs.",
+      "Mount Everest is the highest mountain above sea level.",
+      "The moon is made of cheese."
+    ],
+    "lieIndex": 2
+  },
+  {
+    "statements": [
+      "Chocolate comes from cacao beans.",
+      "Dolphins are mammals.",
+      "Cows lay eggs."
+    ],
+    "lieIndex": 2
+  },
+  {
+    "statements": [
+      "Lightning never strikes the same place twice.",
+      "The Statue of Liberty is in New York.",
+      "Tomatoes are fruits."
+    ],
+    "lieIndex": 0
+  }
+]

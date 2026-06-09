@@ -1,0 +1,14 @@
+services:
+  dimandem-bot:
+    build: .
+    container_name: dimandem-bot
+    env_file:
+      - .env
+    volumes:
+      - .:/app:rw
+      - /app/node_modules
+      - ./dimandem.db:/app/dimandem.db:rw
+    environment:
+      - NODE_ENV=development
+    restart: always
+    user: "${PUID:-1000}:${PGID:-1000}"
